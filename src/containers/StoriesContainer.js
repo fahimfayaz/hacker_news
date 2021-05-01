@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getStoryIds } from '../services/hnApi';
-import { Story } from '../components/Story';
+import { StaticCard } from '../components/StaticCard';
 import {
   GlobalStyle,
   StoriesContainerWrapper,
@@ -21,7 +21,7 @@ export const StoriesContainer = () => {
       <StoriesContainerWrapper data-test-id="stories-container">
         <h1>Hacker News Stories</h1>
         {storyIds.slice(0, count).map(storyId => (
-          <Story key={storyId} storyId={storyId} />
+          <StaticCard key={storyId} storyId={storyId} />
         ))}
       </StoriesContainerWrapper>
     </>

@@ -9,7 +9,7 @@ import {
 } from '../styles/StoryStyles';
 import { mapTime } from '../mappers/mapTime';
 
-export const Story = memo(function Story({ storyId }) {
+export const Story = memo(function Story({ storyId }) { 
   const [story, setStory] = useState({});
 
   useEffect(() => {
@@ -21,7 +21,7 @@ export const Story = memo(function Story({ storyId }) {
       <StoryTitle>
         <a href={story.url}>{story.title}</a>
       </StoryTitle>
-      <StoryMeta>
+      <StoryMeta>  
         <span data-testid="story-by">
           <StoryMetaElement color="#000">By:</StoryMetaElement> {story.by}
         </span>
