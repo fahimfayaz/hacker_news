@@ -11,6 +11,7 @@ const useStyles = makeStyles({
   root: {
     margin: 18,
     minWidth: 275,
+    borderRadius: '1rem',
     boxShadow: '1px 3px 5px #888888',
     '&:hover':{
         boxShadow: '2px 6px 10px 4px #888888',

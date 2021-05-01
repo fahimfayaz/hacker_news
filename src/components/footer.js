@@ -19,7 +19,7 @@ function Footer() {
     <div className={classes.root}>
         <div>
             <p>
-                <Typography style={{fontSize:"30px",fontWeight:"800", padding: "30px"}}>
+                <Typography style={{fontFamily: 'Arial black',fontSize:"30px",fontWeight:"800", padding: "30px"}}>
                 <span style={{color:"black"}}>HACKER</span> 
                 <span style={{color:"black"}}>NEWS</span>
                 <span style={{color:"black"}}>.</span> 

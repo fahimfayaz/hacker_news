@@ -27,8 +27,8 @@ export default function Chips() {
 
   return (
     <div className={classes.root}>
-      <Chip label="New" style={{backgroundColor:"#ebc334",fontSize:"x-large",fontWeight:"600",width: "100px", height: "50px"}}/>
-      <Chip label="Past" style={{fontSize:"x-large",fontWeight:"600", width: "100px", height: "50px"}}/>
+      <Chip label="New" style={{fontFamily: 'Arial black',backgroundColor:"#ebc334",fontSize:"x-large",fontWeight:"600",width: "100px", height: "40px"}}/>
+      <Chip label="Past" style={{fontFamily: 'Arial black',fontSize:"x-large",fontWeight:"600", width: "100px", height: "40px"}}/>
     </div>
   );
 }
