@@ -18,7 +18,7 @@ function Appbar() {
       <AppBar position="static" style={{backgroundColor: '#ffffff'}}>
         <div className="App">
             <p>
-              <Typography style={{fontSize:"30px",fontWeight:"800"}}>
+              <Typography style={{textAlign:"center",fontSize:"30px",fontWeight:"800"}}>
                 <span style={{color:"#ebc334"}}>HACKER</span> 
                 <span style={{color:"black"}}>NEWS</span>
                 <span style={{color:"#ebc334"}}>.</span> 

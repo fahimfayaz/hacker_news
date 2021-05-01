@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { getStoryIds } from '../services/hnApi';
 import { StaticCard } from '../components/StaticCard';
+import Appbar from '../components/appbar'
+import Chips from '../components/chips'
+
 import {
   GlobalStyle,
   StoriesContainerWrapper,
@@ -17,13 +20,18 @@ export const StoriesContainer = () => {
 
   return (
     <>
+  
+  <Appbar/>
       <GlobalStyle />
       <StoriesContainerWrapper data-test-id="stories-container">
+    
+    <Chips/>
         <h1>Hacker News Stories</h1>
         {storyIds.slice(0, count).map(storyId => (
           <StaticCard key={storyId} storyId={storyId} />
         ))}
       </StoriesContainerWrapper>
+ 
     </>
   );
 };
