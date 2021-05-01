@@ -26,7 +26,7 @@ export const StoriesContainer = () => {
       <StoriesContainerWrapper data-test-id="stories-container">
     
     <Chips/>
-        <h1>Hacker News Stories</h1>
+      
         {storyIds.slice(0, count).map(storyId => (
           <StaticCard key={storyId} storyId={storyId} />
         ))}
