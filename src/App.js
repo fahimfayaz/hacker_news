@@ -7,7 +7,7 @@ export const App= ()=> {
     return(
     <> <StoriesContainer />  
     
-      <CustomizedButtons/>
+    {/* <CustomizedButtons/> */}
     <Footer/>
     
     
