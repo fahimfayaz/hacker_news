@@ -7,8 +7,8 @@ export const App= ()=> {
     return(
     <> <StoriesContainer />  
     
-      {/* <CustomizedButtons/>
-    <Footer/> */}
+      <CustomizedButtons/>
+    <Footer/>
     
     
     </>)}
