@@ -33,8 +33,8 @@ const BootstrapButton = withStyles({
     },
     '&:active': {
       boxShadow: 'none',
-      backgroundColor: '#0062cc',
-      borderColor: '#005cbf',
+      backgroundColor: '#ebdc34',
+      borderColor: '#ebdc34',
     },
     '&:focus': {
       boxShadow: '0 0 0 0.2rem rgba(0,123,255,.5)',
